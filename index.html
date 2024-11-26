@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML Page with Bootstrap 5.2.2">
+    <title>Fynnova +</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <link href="./styles/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <img class="nav-bar-img" src="./assets/logo.png">
+            <!-- <a class="navbar-brand" href="#">Fynnova+</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Research</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a class="dropdown-item" href="#">PortFolios</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 2 -->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Consulting
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Renewable Energy</a></li>
+                      <li><a class="dropdown-item" href="#">Real Estate</a></li>
+                    </ul>
+                  </li>
+                    <!-- Dropdown 3 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu3" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Business</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                            <li><a class="dropdown-item" href="#">Precious Metals</a></li>
+                            <li><a class="dropdown-item" href="#">Gold/Silver</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Section with background image and overlay -->
+    <section class="bg-image-section">
+        <div class="bg-overlay"></div>
+        <div class="content">
+            <h1 class="display-4 mb-4">Welcome to Fynnova</h1>
+            <p class="mb-4">Discover amazing content with us </p>
+            <div class="custom-input-group input-group">
+                <input type="text" class="form-control" placeholder="Enter you email" aria-label="Search">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Section -->
+    <section class="analytics-section ">
+        <div class="container fade-in">
+        <h2 style="text-align:center;">Portfolio Analytics</h2>
+<br/>
+            <div class="row g-4">
+                <!-- First Section: Image -->
+                <div class="col-lg-6">
+                    <div class="analytics-image ">
+                        <img src="./assets/portfolio-analysis.jpg" alt="Analytics" />
+                    </div>
+                </div>
+                <!-- Second Section: Text -->
+                <div class="col-lg-6">
+                    <div class="analytics-text">
+                        <h2>FYINNOVEA+</h2>
+                        <h3>Portfolio analytics platform by FYINNOVEA</h3>
+                        <p>
+                            With FYINNOVEA, you get the best in class research on investment. As the market changes,
+                            intelligent analytics empowers investors to facilitate informed investment decisions through
+                            predictive analytics, risk assessment, and market sentiment analysis, by leveraging data-driven
+                            insights and advanced analytics
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="benefits-container fade-in">
+            <div class="container ">
+                <div class="row">
+                    <!-- First Section - Benefits of Portfolio Analytics -->
+                    <div class="col-md-6 benefits-section">
+                        <h4>Benefits of Portfolio Analytics</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                    </div>
+    
+                    <!-- Second Section - Expandable Content -->
+                    <div class="col-md-6 expandable-section ">
+                        <div class="accordion" id="accordionExample">
+                            <!-- First Item - Expanded by Default -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accurate Predictions
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We apply AI driven predictive analytics to accurately predict the trend and
+                                        arrive at
+                                        proactive strategies
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Second Item - Collapsed by Default -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Proactive Strategies
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        With AI, organizations can quickly adapt to market changes, aligning their initiatives
+                                        with evolving strategic objectives </div>
+                                </div>
+                            </div>
+    
+                            <!-- Third Item - Collapsed by Default -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Lucid AI Dashboard
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Stunning AI powered info graphics, in-depth strategic insights and reporting
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Services Section -->
+    <!-- <section class="services-section">
+        <div class="container">
+            <div class="row"> -->
+                <!-- Service Box 1 -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="service-box fade-in">
+                        <h3>Web Development</h3>
+                        <p>
+                            Create stunning, responsive websites tailored to your business needs with cutting-edge
+                            technologies.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- Service Box 2 -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="service-box fade-in">
+                        <h3>Mobile Apps</h3>
+                        <p>
+                            Build user-friendly mobile applications to engage your audience and enhance your digital
+                            presence.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- Service Box 3 -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="service-box fade-in">
+                        <h3>SEO Optimization</h3>
+                        <p>
+                            Optimize your website for search engines and improve your rankings to reach a larger
+                            audience.
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- Service Box 4 -->
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="service-box fade-in">
+                        <h3>Data Analytics</h3>
+                        <p>
+                            Unlock the power of your data with advanced analytics to make informed business decisions.
+                        </p>
+                    </div>
+                </div> -->
+            <!-- </div>
+        </div>
+    </section> -->
+
+
+
+    </section>
+
+
+
+    <section class="our-works-section fade-in">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Works</h2>
+                <p>Explore some of our amazing projects.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card work-card">
+                        <img src="./assets/slider-bg.jpg" alt="Work Image">
+                        <div class="card-overlay">
+                            <h5>FYINNOVEA STARTUP HUB</h5>
+                            <p>Vision...Success...Business Excellence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card work-card">
+                        <img src="./assets/startup-hub.jpg" alt="Work Image">
+                        <div class="card-overlay">
+                            <h5>FYINNOVEA BULLIONS</h5>
+                            <p>Invest in Precious Metals</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card work-card">
+                        <img src="./assets/testimonial-bg.jpg" alt="Work Image">
+                        <div class="card-overlay">
+                            <h5>FYINNOVEA INVESTMENTS</h5>
+                            <p>Invest Right in Real Estate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Team Section -->
+    <section class="team-section">
+        <h2>Our Team</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Team Member -->
+                <div class="col-md-4 col-lg-2 text-center team-card">
+                    <div class="team-member">
+                        <img src="./assets/avatar.png" alt="Team Member">
+                        <div class="overlay">
+                            <div class="social-icons">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <p class="team-name">Raju</p>
+                        <p class="team-position">XXX</p>
+                    </div>
+                </div>
+                <!-- Repeat for other team members -->
+                <!-- Example Team Member -->
+                <div class="col-md-4 col-lg-2 text-center team-card">
+                    <div class="team-member">
+                        <img src="./assets/avatar.png" alt="Team Member">
+                        <div class="overlay">
+                            <div class="social-icons">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <p class="team-name">Umesh</p>
+                        <p class="team-position">XXXXX</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-2 text-center team-card">
+                    <div class="team-member">
+                        <img src="./assets/avatar.png" alt="Team Member">
+                        <div class="overlay">
+                            <div class="social-icons">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <p class="team-name">Manohar</p>
+                        <p class="team-position">XXX</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-2 text-center team-card">
+                    <div class="team-member">
+                        <img src="./assets/avatar.png" alt="Team Member">
+                        <div class="overlay">
+                            <div class="social-icons">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <p class="team-name">Sumesh</p>
+                        <p class="team-position">XXXX</p>
+                    </div>
+                </div>
+                <!-- Add additional team members as needed -->
+            </div>
+        </div>
+    </section>
+
+
+    <div class="testimonials-section fade-in">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+      
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Carousel Content -->
+          <div class="carousel-inner">
+            <!-- First Testimonial -->
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="testimonial-card">
+                  <p class="testimonial-text">"The service was fantastic. I couldn't ask for better support!"</p>
+                  <p class="testimonial-author">- John Doe</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Second Testimonial -->
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="testimonial-card">
+                  <p class="testimonial-text">"Outstanding quality and attention to detail. Highly recommend!"</p>
+                  <p class="testimonial-author">- Jane Smith</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Third Testimonial -->
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="testimonial-card">
+                  <p class="testimonial-text">"Exceptional customer service and prompt responses. Very pleased!"</p>
+                  <p class="testimonial-author">- Alice Brown</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Fourth Testimonial -->
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="testimonial-card">
+                  <p class="testimonial-text">"A pleasure to work with. I'll definitely be coming back!"</p>
+                  <p class="testimonial-author">- Michael Green</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+  
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <div class="row g-4">
+                <!-- First Section: Cards -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <!-- Address Card -->
+                        <div class="col-md-6 fade-in">
+                            <div class="contact-card">
+                                <h5>Address</h5>
+                                <p>Door No. 8, 14th Main, 14th Cross, H.S.R 4th Sector, opposite to BDA Complex, Bengaluru,
+                                    Karnataka 560102</p>
+                            </div>
+                        </div>
+                        <!-- Phone Card -->
+                        <div class="col-md-6 fade-in">
+                            <div class="contact-card">
+                                <h5>Phone</h5>
+                                <p>+91 99860 12816,
+                                    +91 99234 48218,
+                                    +91 098531 73532,
+                                    +91 098597 97154</p>
+                            </div>
+                        </div>
+                        <!-- Email Card -->
+                        <div class="col-md-6 fade-in">
+                            <div class="contact-card">
+                                <h5>Email Us</h5>
+                                <p>contactus@fyinnovea.com</p>
+                            </div>
+                        </div>
+                        <!-- Learn Us Card -->
+                        <div class="col-md-6 fade-in">
+                            <div class="contact-card">
+                                <h5>Learn About Us</h5>
+                                <p><a href="#">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Section: Contact Form -->
+                <div class="col-lg-6 fade-in">
+                    <form class="contact-form" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name"
+                                    required>
+                                <div class="invalid-feedback">First name is required.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                                <div class="invalid-feedback">Last name is required.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <div class="invalid-feedback">Valid email is required.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                            <div class="invalid-feedback">Message is required.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+        <img src="./assets/portfolio-analytics.webp" alt="">
+    
+        <div class="container">
+          <div class="row justify-content-center" data-aos="zoom-in">
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Our Partners</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                  laborum.</p>
+                <!-- <a class="cta-btn" href="#">Call To Action</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section><!-- /Call To Action Section -->
+
+
+    <section class="section-container fade-in">
+        <div class="container">
+            <div class="row">
+                <!-- First Section - Useful Links -->
+                <div class="col-lg-4 col-md-6 useful-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a>About</a></li>
+                        <li><a>PortFolios</a></li>
+                        <li><a>Renewable Energy</a></li>
+                        <li><a>Real Estate</a></li>
+                        <li><a>Precious Metals</a></li>
+                        <li><a>Gold/Silver</a></li>
+                    </ul>
+                </div>
+
+                <!-- Second Section - Subscribe -->
+                <div class="col-lg-4 col-md-6 subscribe-section">
+                    <h4>Subscribe</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                        <button class="btn" type="button">Subscribe</button>
+                    </div>
+                    <br/>
+                    <p style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <!-- Third Section - Recent Tweets -->
+                <div class="col-lg-4 col-md-6 recent-tweets">
+                    <h4>Recent Tweets</h4>
+                    <div class="tweet">
+                        <p>@sudhin ELorem ipsum dolor sit amet, consectetur </p>
+                        <span class="tweet-time">1 Hour ago</span>
+                    </div>
+                    <div class="tweet">
+                        <p>@sudhin sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <span class="tweet-time">1 Hour ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Fynnova. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Icon Library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+    <script>
+        // JavaScript for fade-in on first load
+        const content = document.querySelector('.content');
+
+        // Animation on first load
+        window.addEventListener('load', () => {
+            content.classList.add('visible');
+        });
+
+        // Fade in/out on scroll
+        let lastScrollY = window.scrollY;
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                // Scrolling down
+                content.classList.add('hidden');
+            } else {
+                // Scrolling up
+                content.classList.remove('hidden');
+            }
+            lastScrollY = window.scrollY;
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('.fade-in');
+
+    const onScroll = () => {
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          el.classList.add('show');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', onScroll);
+    onScroll(); // Trigger on load
+  });
+
+
+//   / Animation on first load
+        window.addEventListener('load', () => {
+            const details = document.querySelectorAll('.team-details');
+            details.forEach(detail => detail.classList.add('visible'));
+        });
+
+        // Fade in/out on scroll
+        let teamlastScrollY = window.scrollY;
+        window.addEventListener('scroll', () => {
+            const teamCards = document.querySelectorAll('.team-card');
+            teamCards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+            teamlastScrollY = window.scrollY;
+        });
+        // document.addEventListener('DOMContentLoaded', () => {
+        //const elements = document.querySelectorAll('.animate-on-load');
+          //  elements.forEach((element) => {
+           //     setTimeout(() => element.classList.add('visible'), 100);
+          //  });
+       // });
+
+        // Fade in/out on scroll
+        // const handleScroll = () => {
+        //     const elements = document.querySelectorAll('.fade-in-out');
+        //     elements.forEach((element) => {
+        //         const rect = element.getBoundingClientRect();
+        //         if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        //             element.classList.add('visible');
+        //         } else {
+        //             element.classList.remove('visible');
+        //         }
+        //     });
+        // };
+
+        // window.addEventListener('scroll', handleScroll);
+        // handleScroll(); // Initial check
+
+
+    </script>
+</body>
+
+</html>
