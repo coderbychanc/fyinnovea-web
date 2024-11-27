@@ -1,0 +1,17 @@
+name: Run on self-hosted runner
+
+on: 
+  push:
+    branches:
+      - main  # or any branch you want to monitor
+
+jobs:
+  build:
+    runs-on: self-hosted
+    name: Run on web
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run a script
+        run: hostname
